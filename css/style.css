@@ -927,8 +927,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 260px;
 }
 
-#Profile .member .pic img {    
-  width: 100%;
+#Profile .member .pic img {        
+  width: 70%;
   max-width: 100%;
 }
 
