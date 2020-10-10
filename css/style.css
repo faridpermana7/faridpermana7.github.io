@@ -612,21 +612,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Product Advanced Featuress Section
 --------------------------------*/
 
-#advanced-features {
+#farst-date-time {
   overflow: hidden;
 }
 
-#advanced-features .features-row {
+.features-row {
   padding: 60px 0 30px 0;
 }
 
-#advanced-features h2 {
+#farst-date-time h2 {
   font-size: 26px;
   font-weight: 700;
   color: #000;
 }
 
-#advanced-features h3 {
+#farst-date-time h3 {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -634,13 +634,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
-#advanced-features p {
+#grpc-mvc h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #999;
+}
+
+
+#grpc-service h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #999;
+}
+
+#farst-date-time p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+#grpc-mvc p {
   line-height: 24px;
   color: #777;
   margin-bottom: 30px;
 }
 
-#advanced-features i {
+#grpc-service p {
+  line-height: 24px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+#farst-date-time i {
   color: #666666;
   font-size: 64px;
   transition: 0.5s;
@@ -649,7 +677,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
 }
 
-#advanced-features i:before {
+#farst-date-time i:before {
   background: #1dc8cd;
   background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
@@ -657,13 +685,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-text-fill-color: transparent;
 }
 
-#advanced-features .advanced-feature-img-right {
+
+.product-img-right {
   max-width: 100%;
   float: right;
   padding: 0 0 30px 30px;
 }
 
-#advanced-features .advanced-feature-img-left {
+#grpc-mvc .product-img-right {
+  max-width: 55% !important; 
+}
+
+#grpc-service .product-img-right {
+  max-width: 55% !important; 
+}
+
+#farst-date-time .product-img-left {
   max-width: 100%;
   float: left;
   padding: 0 30px 30px 0;
@@ -1229,8 +1266,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-bottom: 30px;
   }
 
-  #advanced-features .advanced-feature-img-right,
-  #advanced-features .advanced-feature-img-left {
+  #farst-date-time .product-img-right,
+  #farst-date-time .product-img-left {
     max-width: 50%;
   }
 
@@ -1254,8 +1291,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
   }
 
-  #advanced-features .advanced-feature-img-right,
-  #advanced-features .advanced-feature-img-left {
+  #farst-date-time .product-img-right,
+  #farst-date-time .product-img-left {
     max-width: 100%;
     float: none;
     padding: 0 0 30px 0;

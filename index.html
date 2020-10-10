@@ -46,8 +46,10 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li class="menu-has-children"><a href="#">Product</a>
             <ul>
-              <li><a href="#advanced-features">FarStudio</a></li>
-              <!-- <li class="menu-has-children"><a href="#">Drop Down 2</a>
+              <li><a href="#farst-date-time">Farst DateTime Converter</a></li>
+              <li><a href="#grpc-mvc">gRPC-FarstMVC</a></li>
+              <li><a href="#grpc-service">gRPC-FarstService</a></li>
+              <!-- <li class="menu-has-children"><a href="#">gRPCFar</a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -75,7 +77,7 @@
     <div class="intro-text">
       <h2>Welcome to my sites</h2>
       <p>Here is a collection of my libraries</p>
-      <a href="#advanced-features" class="btn-get-started scrollto">Get Started</a>
+      <a href="#farst-date-time" class="btn-get-started scrollto">Get Started</a>
     </div>
 
     <div class="product-screens">
@@ -99,15 +101,15 @@
   <main id="main">
 
     <!--==========================
-      Product
+      DateTime Converter
     ============================-->
-    <section id="advanced-features">
+    <section id="farst-date-time">
 
       <div class="features-row section-bg">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/datetime-converter.PNG" alt="">
+              <img class="product-img-right wow fadeInRight" src="img/datetime-converter.PNG" alt="">
               <div class="wow fadeInLeft">
                 <h2>DateTime Converter</h2>
                 <h3>FarStudio.Utility.Parser</h3> 
@@ -129,127 +131,279 @@
           </div>
         </div>
       </div>
+    </section>
+
       <!--==========================
       Product Featuress Section
     ============================-->
-      <section id="features">
-        <div class="container">
+    <section id="features">
+      <div class="container">
 
-          <div class="row">
+        <div class="row">
 
-            <div class="col-lg-8 offset-lg-4">
-              <div class="section-header wow fadeIn" data-wow-duration="1s">
-                <h3 class="section-title">Product Featuress</h3>
-                <span class="section-divider"></span>
-              </div>
+          <div class="col-lg-8 offset-lg-4">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">DateTime Converter Featuress</h3>
+              <span class="section-divider"></span>
             </div>
+          </div>
 
-            <div class="col-lg-4 col-md-5 features-img">
-              <img src="img/product-features.png" alt="" class="wow fadeInLeft">
-            </div>
+          <div class="col-lg-4 col-md-5 features-img">
+            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
+          </div>
 
-            <div class="col-lg-8 col-md-7 ">
+          <div class="col-lg-8 col-md-7 ">
 
-              <div class="row">
+            <div class="row">
 
-                <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                  <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                  <h4 class="title"><a href="">Quick</a></h4>
-                  <p class="description">Because conversion in level Json, this make conversion not blocking or use many
-                    resource of memory in your business code.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                  <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                  <h4 class="title"><a href="">Easy</a></h4>
-                  <p class="description">Implement conversion is very simple and easy. Just implement in single place,
-                    all data write and read already implemented.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-                  <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                  <h4 class="title"><a href="">Customizable</a></h4>
-                  <p class="description">You can custom format date time. Because so many different format, in fact
-                    different country has diferent format. And usually there are use UTC date fornat and not.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                  <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                  <h4 class="title"><a href="">Default Value</a></h4>
-                  <p class="description">We provide default value. If you didn't add anything format in this conversion,
-                    so we created deafault format. </p>
-                </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                <h4 class="title"><a href="">Quick</a></h4>
+                <p class="description">Because conversion in level Json, this make conversion not blocking or use many
+                  resource of memory in your business code.</p>
               </div>
-
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
+                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
+                <h4 class="title"><a href="">Easy</a></h4>
+                <p class="description">Implement conversion is very simple and easy. Just implement in single place,
+                  all data write and read already implemented.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
+                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <h4 class="title"><a href="">Customizable</a></h4>
+                <p class="description">You can custom format date time. Because so many different format, in fact
+                  different country has diferent format. And usually there are use UTC date fornat and not.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
+                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+                <h4 class="title"><a href="">Default Value</a></h4>
+                <p class="description">We provide default value. If you didn't add anything format in this conversion,
+                  so we created deafault format. </p>
+              </div>
             </div>
 
           </div>
 
         </div>
 
-      </section><!-- #features -->
+      </div>
+
+    </section>
+      <!-- #features -->
+
+    <!--==========================
+      Product : gRPC MVC
+    ============================-->
+    <section id="grpc-mvc"> 
+      <div class="features-row section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="product-img-right wow fadeInRight" src="img/grpc-mvc.PNG" alt="">
+              <div class="wow fadeInLeft">
+                <h2>gRPC MVC Client (.NET Core)</h2>
+                <h3>gRPCFarstMVC</h3> 
+                <p>
+                  <strong>gRPC</strong> is a modern open source high performance RPC framework that can run in any environment. 
+                  It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, 
+                  health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, 
+                  mobile applications and browsers to backend services(<a href="https://grpc.io/" target="_balnk">https://grpc.io/</a>)</p>
+
+                  <p><strong>gRPCFarstMVC</strong> This is a client for gRPC services. Developed using MVC .NET Core, 
+                    which is the .net core application is the latest and best technology from Microsoft today, 
+                    which can be implemented not only on Windows but also on linux. So you can even publish on nginx, aws, docker, azure and IIS itself.</p>
+                <a href="https://github.com/faridpermana7/gRPCFarstMVC" title="Open on GitHub"  target="_blank">
+                  <img src="img/clients/github-min.png" alt="">
+                </a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
 
       <!--==========================
-      More Features Section
+      Product Featuress Section
     ============================-->
-      <section id="more-features" class="section-bg">
-        <div class="container">
+    <section id="features">
+      <div class="container">
 
-          <div class="section-header">
-            <h3 class="section-title">Up Coming Features</h3>
-            <span class="section-divider"></span>
-            <p class="section-description">For improving this conversion, next we will add some better features.</p>
+        <div class="row">
+
+          <div class="col-lg-10 offset-lg-1">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">gRPC MVC Featuress</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div> 
+
+          <div class="col-lg-12 col-md-7 ">
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 box wow fadeInRight"> 
+                <h4 class="title"><a href=""><strong>.NET Core</strong></a></h4>
+                <p class="description">This is an awesome streamwork from Microsoft, where we can deploy on multi-platform.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s"> 
+                <h4 class="title"><a href=""><strong>MVC</strong></a></h4>
+                <p class="description">mvc structure is one of the best, its web based SPA. Faster and more structured.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s"> 
+                <h4 class="title"><a href=""><strong>Protobuf</strong></a></h4>
+                <p class="description">Protobuf is easier to bind to objects, 
+                  comparing strings in JSON can be slow. As JSON is textual, 
+                  its integers and floats can be slow to encode and decode because JON is not designed for numbers.</p>
+              </div> 
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s"> 
+                <h4 class="title"><a href=""><strong>Pagination</strong></a></h4>
+                <p class="description">gRPC-FarstMVC is equipped with powerful pagination where there is advanced development technology from X.PagedList.</p>
+              </div> 
+            </div>
+
           </div>
 
+        </div>
+
+      </div>
+
+    </section>
+      <!-- #features -->
+    <!--==========================
+      
+
+    <!--==========================
+      Product : gRPC Service
+    ============================-->
+    <section id="grpc-service"> 
+      <div class="features-row section-bg">
+        <div class="container">
           <div class="row">
+            <div class="col-12">
+              <img class="product-img-right wow fadeInRight" src="img/grpc-service.PNG" alt="">
+              <div class="wow fadeInLeft">
+                <h2>gRPC Service (.NET Core)</h2>
+                <h3>gRPCFarstService</h3> 
+                <p>
+                  <strong>gRPC</strong> is a modern open source high performance RPC framework that can run in any environment. 
+                  It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, 
+                  health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, 
+                  mobile applications and browsers to backend services(<a href="https://grpc.io/" target="_balnk">https://grpc.io/</a>)</p>
 
-            <div class="col-lg-6">
-              <div class="box wow fadeInLeft">
-                <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-                <h4 class="title"><a href="">Support Newtonsoft.Json </a></h4>
-                <p class="description">For now FarStudio only support in Newtonsoft.Josn 12.0.0, so it becomes easier if
-                  work on the lower version of Newtonsoft to accommodate all needed.</p>
+                  <p><strong>gRPCFarstService</strong> This is a gRPC service base. Developed using gRPC .NET Core, 
+                    with data structure protobuf.</p>
+                <a href="https://github.com/faridpermana7/gRPCFarstService" title="Open on GitHub"  target="_blank">
+                  <img src="img/clients/github-min.png" alt="">
+                </a> 
               </div>
             </div>
-
-            <div class="col-lg-6">
-              <div class="box wow fadeInRight">
-                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Support Lower C# Version</a></h4>
-                <p class="description">For now FarStudio only support in C# 6 and 7, so it becomes easier if work on the
-                  lower version of C# to accommodate all needed.</p>
-              </div>
-            </div>
-
           </div>
         </div>
-      </section><!-- #more-features -->
+      </div>
+    </section> 
+
+      <!--==========================
+      Product Featuress Section
+    ============================-->
+    <section id="features">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-10 offset-lg-1">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">gRPC Service Featuress</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div> 
+
+          <div class="col-lg-12 col-md-7 ">
+
+            <div class="row">
+
+              <div class="col-lg-12 col-md-6 box wow fadeInRight"> 
+                <h4 class="title"><a href=""><strong>.NET Core</strong></a></h4>
+                <p class="description">This is an awesome streamwork from Microsoft, where we can deploy on multi-platform and .NET Core is much faster.</p>
+              </div> 
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+      <!-- #features -->
+    <!--==========================
+
+    More product Section
+  ============================-->
+    <section id="more-features" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Up Coming Product</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">For improving this conversion, next we will add some products that make our product better.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+              <h4 class="title"><a href="">gRPC with Entity Fremwork </a></h4>
+              <p class="description">It would be great if our gRPC service uses the Entity Framework (EF) for our repository. Whether using SQL Server or MySQL, 
+                If you have any ideas, send them via email to me below, we'll see soon.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+              <h4 class="title"><a href="">gRPC Angular Client</a></h4>
+              <p class="description">Not only MVC .NET Core that I developed as a client. 
+                However, I will develop Angular as a client so that the development can be even wider.
+                It would be awesome, and pray for the best.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- #more-product --> 
+      <!-- #gRPC MVC -->
 
       <!--==========================
       Clients
     ============================-->
-      <section id="clients">
-        <div class="container">
+    <section id="clients">
+      <div class="container">
 
-          <div class="row wow fadeInUp">
+        <div class="row wow fadeInUp">
 
-            <div class="col-md-3">
-              <img src="img/clients/microsoft.png" alt="">
-            </div>
-
-            <div class="col-md-3">
-              <img src="img/clients/nuget.png" alt="">
-            </div>
-
-            <div class="col-md-3">
-              <img src="img/clients/cshrap.png" alt="">
-            </div>
-
-            <div class="col-md-3">
-              <img src="img/clients/github.png" alt="">
-            </div>
-
+          <div class="col-md-3">
+            <img src="img/clients/microsoft.png" alt="">
           </div>
-        </div>
-      </section><!-- #more-features -->
 
+          <div class="col-md-3">
+            <img src="img/clients/nuget.png" alt="">
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/clients/cshrap.png" alt="">
+          </div>
+
+          <div class="col-md-3">
+            <img src="img/clients/github.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- #more-features -->
       <!--==========================
       Donate Section
     ============================-->
