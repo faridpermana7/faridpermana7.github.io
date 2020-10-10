@@ -983,7 +983,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #Profile .member .social {
   margin-top: 5px;
-  margin-left: 44%;
+  /* margin-left: 44%; */
 }
 
 #Profile .member .social a {
