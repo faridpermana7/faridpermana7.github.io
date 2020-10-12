@@ -693,11 +693,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #grpc-mvc .product-img-right {
-  max-width: 55% !important; 
+  max-width: 55%; 
 }
 
 #grpc-service .product-img-right {
-  max-width: 55% !important; 
+  max-width: 55%; 
 }
 
 #farst-date-time .product-img-left {
@@ -1312,5 +1312,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   #more-features p {
     margin-left: 0;
     text-align: center;
+  }
+}
+
+
+@media (max-width: 540px) {
+  .product-img-right {
+    padding: unset !important; 
+    max-width: 100% !important;
   }
 }
